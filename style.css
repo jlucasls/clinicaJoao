@@ -1,0 +1,98 @@
+body {
+    background-color: #f4f9fc; /* Um tom mais suave de azul */
+    font-family: 'Arial', sans-serif; /* Fonte mais limpa */
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%; /* Ajusta o topo para melhor alinhamento */
+}
+
+.container2 {
+    border: 2px solid #84b6f4; /* Cor de borda mais suave */
+    border-radius: 10px; /* Bordas arredondadas */
+    background-color: #ffffff; /* Fundo branco para destacar o formulário */
+    padding: 20px;
+    width: 100%;
+    max-width: 500px; /* Limita a largura máxima do formulário */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave para destaque */
+}
+
+#title1 {
+    text-align: center;
+    color: #4f9ad1; /* Cor um pouco mais suave para o título */
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#form1 {
+    width: 100%;
+}
+
+.mb-3 {
+    margin-bottom: 15px;
+}
+
+input[type="text"], input[type="email"], input[type="date"], select {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #d1d8e0; /* Borda suave */
+    border-radius: 8px; /* Bordas arredondadas nos campos */
+    background-color: #f9fafb; /* Fundo mais claro para campos de entrada */
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="date"]:focus, select:focus {
+    border-color: #4f9ad1; /* Cor da borda ao focar */
+    outline: none;
+    box-shadow: 0 0 5px rgba(79, 154, 209, 0.6); /* Efeito de foco com sombra suave */
+}
+
+input[type="text"], input[type="email"], input[type="date"], select {
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 14px;
+    font-size: 18px;
+    background-color: #4f9ad1; /* Cor do botão */
+    color: #fff;
+    border: none;
+    border-radius: 8px; /* Bordas arredondadas no botão */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #357ca5; /* Cor mais escura do botão ao passar o mouse */
+}
+
+.btn1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.alert {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
